@@ -1,4 +1,8 @@
 <a href="{{url('/superheroes/create')}}"> Agregar nuevo superheroe</a>
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
 <div class="table-responsive">
     <table class="table table-primary">
         <thead>
@@ -38,4 +42,5 @@
            @endforeach
         </tbody>
     </table>
+</div>
 </div>
